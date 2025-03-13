@@ -1,3 +1,5 @@
+const cors = require("cors");
+app.use(cors({ origin: "*" })); // Allows all domains
 require("dotenv").config();
 const express = require("express");
 const http = require("http");
