@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendsToChat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <h1>FriendsToChat - Talk to Strangers!</h1>
+        <div id="chat-box"></div>
+        <input id="message" type="text" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="connectToStranger()">Find a Stranger</button>
+    </div>
+</body>
+</html>
